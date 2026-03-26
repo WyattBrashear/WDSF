@@ -17,4 +17,5 @@ FLAG|DATA
 10
 !LIST_END
 #Testing of Math Operations
-COOL_DATA|{result = x * 10}
+COOL_DATA|!#FUNC:x**x
+COOL_DATA2|!#FUNC:x*y
