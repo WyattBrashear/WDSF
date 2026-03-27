@@ -31,6 +31,8 @@ class WDSFFile:
                     key, value = line.split('|')
                     #Handle Functions
                     if value.startswith('!#'):
+                        if not execute:
+                            continue
                         #Special Statement Handler
                         if args is None:
                             raise Exception('No arguments provided for function!')
