@@ -1,9 +1,10 @@
 import os
+import json
 
 class WDSFFile:
     def __init__(self, file):
         self.file = file
-    def read(self, args=None):
+    def read(self, execute=True, args=None):
         with open(self.file, 'r') as f:
             returning_dict = {}
             reading_list = False
@@ -65,7 +66,3 @@ def convert_to_wdsf(data, output_file):
                 f.write('!LIST_END\n')
             else:
                 f.write(f'{key}|{value}\n')
-
-
-
-
