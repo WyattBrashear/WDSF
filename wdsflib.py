@@ -46,6 +46,12 @@ class WDSFFile:
                     returning_dict.update({key: str(value).replace('\n', '')})
             return returning_dict
 
+    def transmute_file(self, output_file, reading_args=None):
+        writing_dict = self.read()
+        with open(output_file, 'w') as f:
+            json.dump(writing_dict, f, indent=4)
+
+
 def convert_to_wdsf(data, output_file):
     with (open(output_file, 'w') as f):
         for key, value in data.items():
