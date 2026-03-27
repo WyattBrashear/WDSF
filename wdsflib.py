@@ -55,7 +55,8 @@ class WDSFFile:
 
 
 def convert_to_wdsf(data, output_file):
-    with (open(output_file, 'w') as f):
+    with open(output_file, 'w') as f:
+        f.write("#WDSF1.0")
         for key, value in data.items():
             if type(value) is list:
                 f.write(f'!LIST|{key}\n')
