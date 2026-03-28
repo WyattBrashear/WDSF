@@ -63,7 +63,13 @@ dict_object = {
 wdsflib.convert_to_wdsf(dict_object, f"{file_name}.wdsf")
 ```
 ## Installation
-
+This project requires no dependencies and can work with defualt python.
+Python 3.13 (Or Newer) is recommended.
 ```bash
 pip install wdsf
 ```
+
+## Demo
+Seeing as this is a python library, it may be difficult to properly demo, however i can provide a demo image of the lib
+working alongside a WDSF file.
+![demo image]()
