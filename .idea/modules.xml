@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../CLIF/.idea/CLIF.iml" filepath="$PROJECT_DIR$/../CLIF/.idea/CLIF.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Smoogle/.idea/Smoogle.iml" filepath="$PROJECT_DIR$/../Smoogle/.idea/Smoogle.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/WDSF.iml" filepath="$PROJECT_DIR$/.idea/WDSF.iml" />
     </modules>
