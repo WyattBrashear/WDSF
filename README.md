@@ -72,4 +72,4 @@ pip install wdsf
 ## Demo
 Seeing as this is a python library, it may be difficult to properly demo, however i can provide a demo image of the lib
 working alongside a WDSF file.
-![demo image]()
+![demo image](https://github.com/WyattBrashear/WDSF/blob/main/photos/DemoPhoto.png?raw=true)
